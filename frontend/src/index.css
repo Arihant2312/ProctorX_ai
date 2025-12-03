@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* TEMP QUICK FIX — forces whole page to respect html.dark / html.light */
+html.light body {
+  background: #ffffff !important;
+  color: #0f172a !important;
+}
+html.dark body {
+  background: #0f172a !important; /* gray-900 */
+  color: #f8fafc !important;      /* gray-50 */
+}
+
+/* remove the blanket link/button override so components keep their own colors */
+/* html.dark a, html.dark button { color: inherit !important; }  <-- removed */
