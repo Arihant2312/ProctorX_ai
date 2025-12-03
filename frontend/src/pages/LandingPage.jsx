@@ -14,8 +14,8 @@ const LandingHeader = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <Link to="/" className="flex items-center gap-2 group">
-             <span className="text-3xl font-bold flex items-center">
-               <span className="mr-2 text-3xl group-hover:scale-110 transition-transform duration-300">🛡️</span>
+             <span className="text-4xl font-bold flex items-center">
+               <span className="mr-2 text-3xl group-hover:scale-110 transition-transform duration-300"><img src="/logo.png" alt="" className='w-12' /></span>
               {/* Darker Blue Gradient Title */}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-800 to-indigo-900">
                 ProctorX
