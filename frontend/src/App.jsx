@@ -8,7 +8,7 @@ import AdminDashboard from './pages/AdminDashboard';
 import ExamPage from './pages/ExamPage';
 import LandingPage from './pages/LandingPage';
 import AboutUsPage from './pages/AboutUsPage';
-import { ThemeProvider } from './components/theme_provider';
+
 
 // Import Components
 import ProtectedRoute from './components/ProtectedRoute';
